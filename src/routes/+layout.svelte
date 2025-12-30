@@ -1,9 +1,16 @@
 <script lang="ts">
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
+	import config from '$lib/assets/config.json';
 
 	let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head>
+	<link rel="icon" href={favicon} />
+	<title>{config.site.meta.title}</title>
+	<meta name="description" content={config.site.meta.description} />
+	<meta name="author" content={config.site.meta.author} />
+</svelte:head>
+
 {@render children()}
