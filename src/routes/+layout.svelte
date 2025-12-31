@@ -2,6 +2,7 @@
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import config from '$lib/assets/config.json';
+	import { MainLayout } from '$lib/components';
 
 	let { children } = $props();
 </script>
@@ -13,4 +14,6 @@
 	<meta name="author" content={config.site.meta.author} />
 </svelte:head>
 
-{@render children()}
+<MainLayout>
+	{@render children()}
+</MainLayout>

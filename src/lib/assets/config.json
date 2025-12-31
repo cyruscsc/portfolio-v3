@@ -2,8 +2,21 @@
 	"site": {
 		"meta": {
 			"title": "cyrus chan",
-			"description": "ai & data engineer",
+			"description": "ai / machine learning engineer",
 			"author": "cyrus chan"
+		}
+	},
+	"pages": {
+		"home": {
+			"meta": {
+				"title": "cyrus chan",
+				"nav": "home",
+				"path": "/"
+			},
+			"content": {
+				"heading": "AI / Machine Learning Engineer",
+				"paragraphs": ["Builds stuff with AI models and machine learning techniques."]
+			}
 		}
 	}
 }
