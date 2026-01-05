@@ -14,8 +14,40 @@
 				"path": "/"
 			},
 			"content": {
-				"heading": "AI / Machine Learning Engineer",
+				"heading": "Cyrus Chan",
+				"subheading": "AI / Machine Learning Engineer",
 				"paragraphs": ["Builds stuff with AI models and machine learning techniques."]
+			}
+		},
+		"about": {
+			"meta": {
+				"title": "about / cyrus chan",
+				"nav": "about",
+				"path": "/about"
+			},
+			"content": {
+				"heading": "About"
+			}
+		},
+		"projects": {
+			"meta": {
+				"title": "projects / cyrus chan",
+				"nav": "projects",
+				"path": "/projects"
+			},
+			"content": {
+				"heading": "Projects",
+				"paragraphs": ["Work in progress."]
+			}
+		},
+		"contact": {
+			"meta": {
+				"title": "contact / cyrus chan",
+				"nav": "contact",
+				"path": "/contact"
+			},
+			"content": {
+				"heading": "Contact"
 			}
 		}
 	}

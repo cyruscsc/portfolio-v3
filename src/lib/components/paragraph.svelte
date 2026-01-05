@@ -2,6 +2,6 @@
 	let { text } = $props();
 </script>
 
-<p class="text-sm leading-4 font-light">
+<p class="text-base leading-6 font-light">
 	{@html text}
 </p>
